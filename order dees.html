@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dee's Cakes n' Bakes</title>
+        <link rel="stylesheet" type="text/css" href="stylez.css"/>
+    </head>
+
+    <body>
+
+        <div class= "nav-buttons"><header>
+            <p><a href="C:\Users\Damaris Yisa\Downloads\Dees cakes homepage.html" target="_self">Home</a></p>
+            <p><a href="C:\Users\Damaris Yisa\Downloads\about dees.html" target="_self">About</a></p>
+            <p><a href="C:\Users\Damaris Yisa\Downloads\order dees.html" target="_self">Order</a></p>
+            <p><a href="C:\Users\Damaris Yisa\Downloads\contact dees.html" target= "_self">Contact Us</a></p>
+        </header></div>
+        <div><h1><a href="C:\Users\Damaris Yisa\Downloads\Dees cakes homepage.html" target="_self">
+            <img width="60" height= "50" src="C:\Users\Damaris Yisa\Pictures\cakes.jpg"> Dee's Cakes n' Bakes 
+            <img width="60" height= "50" src="C:\Users\Damaris Yisa\Pictures\cakes.jpg"></a></h1>
+        </div>
+        
+        <h2>Order our limited edition cupcake boxes now! Place an order below</h2>
+        <div class="master-div-style">
+            <form action="resultsdees.html" method="GET" id="orderForm">
+                <div>
+                    <label class="labels" id="name" for="name">Name:</label>
+                    <input class="input-fields" type="text" name="name" placeholder="Type your name" required>
+                </div>
+                <div>
+                    <label class="labels" id="email" for="email">Email:</label>
+                    <input class="input-fields" type="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div>
+                    <label class="labels" id="tel" for="tel">Phone Number:</label>
+                    <input class="input-fields" type="tel" name="tel" placeholder="Enter your telephone/mobile number" required>
+                </div>
+                <div>
+                    <label class="labels" id="quantity" for="quantity">Please select cupcake quantity:</label>
+                    <div>
+                        <div><input class="radio-inLine" type="radio" name="quantity" value="12" required/><span>12</span>
+                        </div>
+                        <div><input class="radio-inLine" type="radio" name="quantity" value="24"><span>24</span>
+                        </div>
+                        <div><input class="radio-inLine" type="radio" name="quantity" value="36"><span>36</span>
+                        </div>
+                        <!---radio buttons mean that user can only select one option from radio list. Appropriate when e.g. 
+                        customers can only order one of a certain item-->
+                    </div>
+                    <div>
+                        <label class="labels" id="flavour" for="flavour">Please select flavour:</label>
+                        <div>
+                            <div><input class="radio-inLine" type="radio" name="flavour" value="vanilla" required/><span>Vanilla</span>
+                            </div>
+                            <div><input class="radio-inLine" type="radio" name="flavour" value="chocolate"><span>Chocolate Fudge</span>
+                            </div>
+                            <div><input class="radio-inLine" type="radio" name="flavour" value="red"><span>Red Velvet</span>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <label class="labels" id="extras" for="extras">Please add any further information:</label>
+                            <textarea name= "extras" id="extras" class="textarea" placeholder="Please enter any additional customizations 
+                            (name tags, decorations, allergies etc)"></textarea>
+                            <!--textarea included to allow user to input any extra needs. No required attribute given as it is
+                            optional information-->
+                        </div>
+                        <div>
+                            <button type="reset" class="button">Clear</button>
+                        </div>
+                        <div>
+                            <button type="submit" class="button">Place Order</button>
+                        </div>
+                    </form>
+        </div>
+     
+        <div>
+            <footer> Terms and Conditions | Privacy Policy | Dee's Cakes n' Bakes © 2022 </footer>
+        </div>
+
+    
+    </body>
+</html>
+        
